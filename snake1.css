@@ -1,14 +1,20 @@
 *{
   padding: 0;
-  margin: 0;
+  margin: auto;
 }
 body{
   background-color: black;
+  padding: 20px;
+  color: white;
 }
 
 td{
   width: 15px;
   height: 15px;
+}
+
+h3{
+  padding: 10px;
 }
 
 .blank{
@@ -28,4 +34,10 @@ td{
 }
 .right{
   display: hidden
+}
+.instructions{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
